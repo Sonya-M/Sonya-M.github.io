@@ -1,0 +1,114 @@
+#customContainer {
+  margin: 0;
+  padding: 0;
+}
+
+#customContainer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#customContainer .innerContainer {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 786px) {
+  #customContainer .innerContainer {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #customContainer .innerContainer {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+#customContainer #resultsDiv {
+  margin-bottom: 3rem;
+}
+
+#customContainer #resultsDiv .showCard {
+  text-align: center;
+}
+
+#customContainer #resultsDiv .showCard img {
+  max-width: 100%;
+}
+
+#customContainer #resultsDiv .showCard h6.show-name {
+  margin-top: auto;
+}
+
+#customContainer #resultsDiv .errorMsg {
+  color: red;
+}
+
+#customContainer .singleShowDisplay {
+  font-size: 0.9em;
+}
+
+#customContainer .singleShowDisplay h1 {
+  text-align: center;
+}
+
+#customContainer .singleShowDisplay img {
+  max-width: 100%;
+  margin: 0.5rem;
+}
+
+#customContainer th,
+#customContainer td {
+  min-width: 4em;
+}
+
+#customContainer .dropdown {
+  position: relative;
+}
+
+#customContainer .dropdown #dropdown-search-suggestions {
+  position: absolute;
+  display: none;
+  width: 100%;
+  z-index: 1;
+  border-radius: 0.3rem;
+  background-color: #fff;
+}
+
+#customContainer .dropdown #dropdown-search-suggestions.visible {
+  display: block;
+}
+
+#customContainer .dropdown #dropdown-search-suggestions a {
+  display: block;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  border-bottom: 1px solid lightgrey;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: 500;
+}
+
+#customContainer .dropdown #dropdown-search-suggestions a:hover {
+  background-color: #eee;
+}
+
+#customContainer footer {
+  height: 3rem;
+  line-height: 3rem;
+}
+
+#customContainer .btn {
+  margin: 0.3rem;
+}
+
+#customContainer .invisible {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

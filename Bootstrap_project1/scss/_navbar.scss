@@ -1,0 +1,9 @@
+#override {
+    .navbar-brand {
+        font-weight: bolder;
+    }
+    .navbar-toggler:hover {
+        background-color: $greenish;
+        color: white;
+    }
+}

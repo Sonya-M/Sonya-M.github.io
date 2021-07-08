@@ -1,0 +1,588 @@
+[
+    {
+        "type": "Creator",
+        "person": {
+            "id": 15,
+            "url": "https://www.tvmaze.com/people/15/stephen-king",
+            "name": "Stephen King",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": "1947-09-21",
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1813.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/1813.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/15"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 15,
+            "url": "https://www.tvmaze.com/people/15/stephen-king",
+            "name": "Stephen King",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": "1947-09-21",
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1813.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/1813.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/15"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 16,
+            "url": "https://www.tvmaze.com/people/16/steven-spielberg",
+            "name": "Steven Spielberg",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": "1946-12-18",
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/25/64101.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/25/64101.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/16"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 17,
+            "url": "https://www.tvmaze.com/people/17/jack-bender",
+            "name": "Jack Bender",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": "1949-09-25",
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/187/468676.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/187/468676.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/17"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 18,
+            "url": "https://www.tvmaze.com/people/18/stacey-snider",
+            "name": "Stacey Snider",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/188/471601.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/188/471601.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/18"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 19,
+            "url": "https://www.tvmaze.com/people/19/neal-baer",
+            "name": "Neal Baer",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/264/661101.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661101.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/19"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 20,
+            "url": "https://www.tvmaze.com/people/20/darryl-frank",
+            "name": "Darryl Frank",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/52/132424.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/52/132424.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/20"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 21,
+            "url": "https://www.tvmaze.com/people/21/justin-falvey",
+            "name": "Justin Falvey",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/52/132425.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/52/132425.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/21"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 22,
+            "url": "https://www.tvmaze.com/people/22/brian-k-vaughan",
+            "name": "Brian K. Vaughan",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": "1976-07-17",
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/96/240765.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/96/240765.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/22"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Executive Producer",
+        "person": {
+            "id": 23,
+            "url": "https://www.tvmaze.com/people/23/peter-leto",
+            "name": "Peter Leto",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/264/661100.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661100.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/23"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 23,
+            "url": "https://www.tvmaze.com/people/23/peter-leto",
+            "name": "Peter Leto",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/264/661100.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661100.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/23"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Executive Producer",
+        "person": {
+            "id": 24,
+            "url": "https://www.tvmaze.com/people/24/rick-cleveland",
+            "name": "Rick Cleveland",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/214/537337.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/214/537337.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/24"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Executive Producer",
+        "person": {
+            "id": 25,
+            "url": "https://www.tvmaze.com/people/25/cathryn-humphris",
+            "name": "Cathryn Humphris",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730097.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/292/730097.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/25"
+                }
+            }
+        }
+    },
+    {
+        "type": "Supervising Producer",
+        "person": {
+            "id": 25,
+            "url": "https://www.tvmaze.com/people/25/cathryn-humphris",
+            "name": "Cathryn Humphris",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/292/730097.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/292/730097.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/25"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Executive Producer",
+        "person": {
+            "id": 26,
+            "url": "https://www.tvmaze.com/people/26/alexandra-mcnally",
+            "name": "Alexandra McNally",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/26"
+                }
+            }
+        }
+    },
+    {
+        "type": "Supervising Producer",
+        "person": {
+            "id": 26,
+            "url": "https://www.tvmaze.com/people/26/alexandra-mcnally",
+            "name": "Alexandra McNally",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/26"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Producer",
+        "person": {
+            "id": 27,
+            "url": "https://www.tvmaze.com/people/27/soo-hugh",
+            "name": "Soo Hugh",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/188/470140.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/188/470140.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/27"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Producer",
+        "person": {
+            "id": 28,
+            "url": "https://www.tvmaze.com/people/28/agatha-warren",
+            "name": "Agatha Warren",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/28"
+                }
+            }
+        }
+    },
+    {
+        "type": "Consulting Producer",
+        "person": {
+            "id": 29,
+            "url": "https://www.tvmaze.com/people/29/daniel-truly",
+            "name": "Daniel Truly",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/264/661097.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661097.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/29"
+                }
+            }
+        }
+    },
+    {
+        "type": "Consulting Producer",
+        "person": {
+            "id": 30,
+            "url": "https://www.tvmaze.com/people/30/kelly-souders",
+            "name": "Kelly Souders",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/94/235643.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/94/235643.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/30"
+                }
+            }
+        }
+    },
+    {
+        "type": "Consulting Producer",
+        "person": {
+            "id": 31,
+            "url": "https://www.tvmaze.com/people/31/brian-peterson",
+            "name": "Brian Peterson",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/31"
+                }
+            }
+        }
+    },
+    {
+        "type": "Associate Producer",
+        "person": {
+            "id": 32,
+            "url": "https://www.tvmaze.com/people/32/richard-peter-schroer",
+            "name": "Richard Peter Schroer",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/32"
+                }
+            }
+        }
+    },
+    {
+        "type": "Associate Producer",
+        "person": {
+            "id": 33,
+            "url": "https://www.tvmaze.com/people/33/darian-heredia",
+            "name": "Darian Heredia",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": null,
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/33"
+                }
+            }
+        }
+    },
+    {
+        "type": "Supervising Producer",
+        "person": {
+            "id": 56,
+            "url": "https://www.tvmaze.com/people/56/adam-stein",
+            "name": "Adam Stein",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/201/502582.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/201/502582.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/56"
+                }
+            }
+        }
+    },
+    {
+        "type": "Supervising Producer",
+        "person": {
+            "id": 66,
+            "url": "https://www.tvmaze.com/people/66/peter-calloway",
+            "name": "Peter Calloway",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": "1982-01-01",
+            "deathday": null,
+            "gender": "Male",
+            "image": null,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/66"
+                }
+            }
+        }
+    },
+    {
+        "type": "Executive Producer",
+        "person": {
+            "id": 29743,
+            "url": "https://www.tvmaze.com/people/29743/tim-schlattmann",
+            "name": "Tim Schlattmann",
+            "country": {
+                "name": "United States",
+                "code": "US",
+                "timezone": "America/New_York"
+            },
+            "birthday": null,
+            "deathday": null,
+            "gender": "Male",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/215/538506.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/215/538506.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/29743"
+                }
+            }
+        }
+    },
+    {
+        "type": "Co-Producer",
+        "person": {
+            "id": 35384,
+            "url": "https://www.tvmaze.com/people/35384/bronwyn-garrity",
+            "name": "Bronwyn Garrity",
+            "country": null,
+            "birthday": null,
+            "deathday": null,
+            "gender": "Female",
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/29/72933.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/29/72933.jpg"
+            },
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/people/35384"
+                }
+            }
+        }
+    }
+]

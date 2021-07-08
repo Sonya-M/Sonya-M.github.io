@@ -1,0 +1,15 @@
+.about {
+    @include set-background($greenish);
+    .about-wrapper {
+        @include padding-y(2rem);
+        .col-log-6 {
+            @include margin-y();
+        }
+        button {
+            background-color: $greenish;
+            border: 2px solid white;
+            display: block;
+            margin: 1rem auto;
+        }
+    }
+}

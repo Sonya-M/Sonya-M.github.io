@@ -1,0 +1,44 @@
+#override {
+    footer {
+        background-color: $blueish;
+        color: white;
+        @include padding-y();
+        p {
+            @include no-spacing();
+        }
+
+        .footer-wrapper {
+            @include padding-x();
+            @media screen and (min-width: 768px) {
+                @include padding-x(4rem);
+            }
+            @media screen and (min-width: 992px) {
+                @include padding-x(8rem);
+            }
+        }
+        .col-md-4 div {
+            @include centered-content-box();
+        }
+        div.icon-wrapper {
+            @include centered-content-row();
+            gap: 0.5rem;
+            .bi {
+                // all of the bellow should ensure you get a circle
+                // instead of an ellipse
+                // (the bootstrap icons have a pseudo-element `before`,
+                // which messes up stuff...
+                // width: 1.3rem;
+                // height: 1.3rem;
+                // line-height: 1.3rem;
+                // text-align: center;
+                // vertical-align: middle;
+            }
+        }
+        .copyright {
+            margin-top: 2rem;
+            .text-muted {
+                font-size: 90%;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@import "variables";
+@import "mixins";
+@import "masthead";
+@import "navbar";
+@import "contact";
+@import "footer";
+@import "about";
+.underline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.underline-dark {
+    @include set-underline(white);
+}
+.underline-light {
+    @include set-underline(black);
+}
+
+#override {
+    .container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-family: Lato-Bold;
+        font-weight: 900;
+    }
+    main {
+        .row div img {
+            width: 100%;
+            @include margin-y();
+        }
+    }
+
+    .inner-container,
+    .navbar {
+        @include padding-x(3rem);
+        @media screen and (min-width: 768px) {
+            @include padding-x(6rem);
+        }
+        @media screen and (min-width: 992px) {
+            @include padding-x(8rem);
+        }
+    }
+}

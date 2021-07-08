@@ -1,0 +1,18 @@
+#override {
+    .contact {
+        color: $contact-form-input-text-col;
+
+        label {
+            padding-top: 1rem;
+        }
+        input,
+        textarea {
+            border: none;
+            border-bottom: 1px solid $form-border-col;
+        }
+        button {
+            background-color: $greenish;
+            border: none;
+        }
+    }
+}

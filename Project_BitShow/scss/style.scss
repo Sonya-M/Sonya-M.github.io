@@ -1,0 +1,114 @@
+$innerContainer-x-padding-sm: 3rem;
+$innerContainer-x-padding-md: 4rem;
+$innerContainer-x-padding-lg: 6rem;
+
+$search-suggestion-padding: 0.5rem;
+$footer-height: 3rem;
+$tablecol-min-width: 4em;
+$details-font-size: 0.9em;
+$btn-margin: 0.3rem;
+
+$box-border-radius: 0.3rem;
+
+$search-suggestions-bg: #fff;
+$search-suggestions-hover-bg: #eee;
+$search-suggestions-col: dodgerblue;
+$error-color: red;
+
+//mixins
+@mixin padding-x($rems) {
+    padding-left: $rems;
+    padding-right: $rems;
+}
+
+#customContainer {
+    margin: 0;
+    padding: 0;
+    a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .innerContainer {
+        @include padding-x($innerContainer-x-padding-sm);
+        @media screen and (min-width: 786px) {
+            @include padding-x($innerContainer-x-padding-md);
+        }
+        @media screen and(min-width: 960px) {
+            @include padding-x($innerContainer-x-padding-lg);
+        }
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #resultsDiv {
+        margin-bottom: $footer-height; //because footer position is fixed,
+        // so otherwise it hides the content
+        .showCard {
+            text-align: center;
+            img {
+                max-width: 100%;
+            }
+            h6.show-name {
+                margin-top: auto; // moves it to bottom
+            }
+        }
+        .errorMsg {
+            color: $error-color;
+        }
+    }
+    .singleShowDisplay {
+        font-size: $details-font-size;
+        h1 {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            margin: 0.5rem;
+        }
+    }
+    th,
+    td {
+        min-width: $tablecol-min-width;
+    }
+    // navbar
+    .dropdown {
+        position: relative;
+        #dropdown-search-suggestions {
+            position: absolute;
+            display: none; // when searching, display: block;
+            // display: block;
+            width: 100%;
+            z-index: 1;
+            border-radius: $box-border-radius;
+            background-color: $search-suggestions-bg;
+            &.visible {
+                display: block;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                border-radius: $box-border-radius;
+                border-bottom: 1px solid lightgrey;
+                padding: $search-suggestion-padding;
+                text-decoration: none;
+                color: $search-suggestions-col;
+                font-weight: 500;
+                &:hover {
+                    background-color: $search-suggestions-hover-bg;
+                }
+            }
+        }
+    }
+
+    footer {
+        height: $footer-height;
+        line-height: $footer-height;
+    }
+    .btn {
+        margin: $btn-margin;
+    }
+    .invisible {
+        display: none;
+    }
+}

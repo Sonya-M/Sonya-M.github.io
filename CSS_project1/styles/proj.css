@@ -1,0 +1,513 @@
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Awesome";
+    src: url(../fonts/FontAwesome);
+}
+@font-face {
+    font-family: "Roboto-medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto-Thin.ttf)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: darkslategray;
+    font-family: Awesome, Arial, Arial, Helvetica, sans-serif;
+}
+
+/* form reset */
+button, input, select, textarea { 
+    font-family: inherit; 
+    font-size: 100%; 
+    padding: 0; 
+    margin: 0; } 
+textarea { 
+    overflow: auto; 
+} 
+
+
+/* headings */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto-bold;
+}
+
+
+h2, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.heading-div h2 {
+    margin: .2em;
+    padding: 0;
+}
+
+/**********************/
+/*****heading line*****/
+.underline {
+    margin: 0 auto;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+div.line, div.square {
+    display: inline-block;
+}
+div.line {           
+    width: 8rem;
+    border-top: 2px solid darkslategray;
+    height: 1rem;
+}
+div.square {
+    margin: 0;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid darkslategray;
+    position: relative;
+    top: -.5rem;
+    transform: rotate(45deg);
+}
+/**********************/
+
+main h3 {
+    color: rgb(84, 150, 216);
+    font-family: Roboto-Regular;
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+h1 span {
+    border: 5px solid darkslategray;
+    border-right: none;
+    color: orange;
+    padding: .1em .2em;
+}
+/* nav logo */
+/* list reset */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin: 0; padding: 0;
+}
+/* link reset */
+a {
+    text-decoration: none;
+}
+
+.nav-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    width: 100%;
+    background-color: rgba(63, 169, 231, 0.658);
+
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    padding: .5em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a:hover {
+    background-color: darkslategray;
+}
+
+div.banner {
+    all: unset;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 20rem;
+    color: whitesmoke;
+    background-image: url(../images/banner3.jpg);
+    background-size: cover;
+}
+
+.banner p {
+    margin: 0 auto;
+    font-size: 190%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner button {
+    background-color: rgb(14, 119, 224);
+    border: none;
+    border-radius: 2em;
+    outline: none;
+    letter-spacing: .2em;
+}
+
+.banner button a {
+    display: block;
+    padding: .8em 1.5em;
+    color: white;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+q {
+    font-weight: bold;
+}
+
+main section {
+    padding: 1em;
+}
+
+main li {
+    list-style-image: url(../images/arrow_bullet.png) ;
+    list-style-position: inside;
+    color: gray;
+    font-family: Roboto-medium;
+    padding: .5em 0;
+    letter-spacing: 1px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-areas:
+        "welcome"
+        "who-img-section"
+        "dreams";
+    gap: 1em;
+    line-height: 1.5em;
+}
+.welcome {
+    grid-area: welcome;
+}
+.who-img-section {
+    grid-area: who-img-section;
+}
+.dreams {
+    grid-area: dreams;
+}
+
+.who-img-section {
+    width: 100%;
+    padding: 0;
+
+}
+
+.who-img-section img {
+    width: 100%;
+}
+
+.people-say {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+.people-say h4 {
+    color: black;
+}
+/* formatting bootstrap icons */
+.people-say .bi {
+    font-size: 1rem;
+    color: white;
+}
+
+.people-say article{
+    line-height: 1.5em;
+    color: white;
+    background-color: rgba(63, 169, 231, 0.658);
+    padding: 1em;
+}
+.people-say img {
+    border-radius: 50%;
+    width: 5rem;
+    /* create double border effect with background color and padding */
+    background-color: rgba(63, 169, 231, 0.658); 
+    padding: .1em;
+    border: 3px solid white;
+}
+.people-say h4 {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+}
+h2 {
+    text-align: center;
+}
+
+.contact section {
+    flex: 1 48%;
+    color: whitesmoke;
+    height: 15rem;
+    vertical-align: center;
+    padding: 2em .5em;
+    line-height: 150%;
+    text-align: center;
+    
+}
+.contact section h3 {
+    margin-bottom: 1.5em;
+}
+.contact .contact-img-section {
+    padding: 0;
+    margin: 0;
+}
+.contact-img-section img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+.contact iframe {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+}
+.tel-mail {
+    background-color: rgb(30, 204, 137);
+}
+
+.tel-mail a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tel mail ul {
+    padding-left: 1.6em;
+}
+.tel-mail li {
+    all: unset;
+    line-height: 1.2em;
+    padding-left: 1.6em;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    display: block;
+
+}
+
+.tel-mail li#email a {
+    display: inline;
+    color: white;
+    text-transform: inherit;
+    font-weight: inherit;
+}
+
+.connect {
+    background-color: rgb(226, 70, 122);
+}
+/* use font-size to change size of bootstrap icons,
+color to change color (just like you would for text) */
+.connect .bi {
+    font-size: 1em;
+    color: white;
+}
+
+.connect .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.address {
+    background-color: dodgerblue;
+}
+
+.mail-form {
+    width: 90%;
+    margin: 0 auto;
+}
+.mail-form ul{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 1em;
+}
+
+.mail-form ul li{
+    width: 100%;
+}
+
+.mail-form input, .mail-form textarea {
+    width: 100%;
+    padding: .5em;
+}
+
+.mail-form input[type=submit] {
+    width: 6em;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+footer {
+    margin-top: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer nav ul {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+footer a {
+    text-transform: unset;
+}
+@media screen and (min-width: 768px) {
+    header {
+        background-image: url(../images/banner3.jpg);
+        background-size: cover;
+        padding: 1em;
+    }
+
+    .nav-logo-wrapper {
+        padding-top: .5em;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    header h1 {
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+    h1 span {
+        border: 5px solid white;
+        border-right: none;
+    }
+    header nav ul {
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        background-color: inherit;
+        top: 2em;
+        right: .5em;
+    }
+
+    header .banner {
+        background-image: none;
+    }
+
+    .about-content {
+        grid-template-areas:
+            "welcome who-img-section"
+            "dreams  dreams";
+    }    
+    .who-img-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .people-say {
+        flex-flow: row wrap;
+        justify-content: flex-start;
+
+    }
+    .people-say article {
+        flex: 1 47%;
+        max-width: 47%;
+    }
+
+    .mail-form {
+        width: 80%;
+    }
+
+    .mail-form ul {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .mail-form ul li {
+        flex-basis: 30%;
+    }
+    .mail-form ul li.textinput {
+        flex-basis: 100%;
+    }
+    footer nav {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .about-content {
+        width: 80%;
+        margin: 0 auto;
+        grid-template-areas:
+            "welcome who-img-section dreams";
+        grid-template-columns: 1fr 1fr 1fr;
+    }  
+    .people-say article {
+        flex: 1 30%;
+        max-width: 33%;
+    }
+    .contact section {
+        flex: 1;
+    }
+
+    .mail-form {
+        width: 70%;
+    }
+
+    footer nav {
+        width: 50%;
+    }
+}

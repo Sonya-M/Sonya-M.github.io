@@ -1,0 +1,11 @@
+#override {
+    .masthead {
+        @include set-background($greenish);
+        padding: 2rem;
+        @include centered-content-box();
+        img {
+            display: block;
+            max-width: 100%;
+        }
+    }
+}

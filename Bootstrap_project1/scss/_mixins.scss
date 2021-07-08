@@ -1,0 +1,51 @@
+// set text color based on background
+@function set-text-color($bg-color) {
+    //check the lightness of bg-color
+    // if it's a light color...
+    @if (lightness($bg-color) > $lightness-threshold) {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}
+// set background & text color
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color);
+}
+
+@mixin centered-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin centered-content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+@mixin no-spacing {
+    padding: 0;
+    margin: 0;
+}
+@mixin margin-y($val: 0.8rem) {
+    margin-top: $val;
+    margin-bottom: $val;
+}
+@mixin padding-x($val: 2rem) {
+    padding-left: $val;
+    padding-right: $val;
+}
+@mixin padding-y($val: 2rem) {
+    padding-top: $val;
+    padding-bottom: $val;
+}
+@mixin set-underline($bg-col) {
+    display: inline-block;
+    background-color: set-text-color($bg-col);
+    height: 0.2rem;
+    width: 3rem;
+}
