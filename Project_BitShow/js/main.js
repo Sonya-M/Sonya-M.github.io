@@ -15,13 +15,13 @@ const MAX_LIST_ITEMS = 10;
 const MAX_SUGGESTIONS = 10;
 
 const HOME_URL = "./index.html";
-const GET_TOP_50_URL = "http://api.tvmaze.com/shows"; // -> json list/ARRAY of show objs sorted by **weight**)
-const SEARCH_ROOT_URL = "http://api.tvmaze.com";
+const GET_TOP_50_URL = "https://api.tvmaze.com/shows"; // -> json list/ARRAY of show objs sorted by **weight**)
+const SEARCH_ROOT_URL = "https://api.tvmaze.com";
 const SEARCH_SHOWS_ENDPOINT = "/search/shows";
-// EMBEDDING EXAMPLE: http://api.tvmaze.com/shows/1?embed[]=episodes&embed[]=cast
+// EMBEDDING EXAMPLE: https://api.tvmaze.com/shows/1?embed[]=episodes&embed[]=cast
 // where 1 is the show id
 // template: GET_SHOW_BY_ID_ROOT_URL + id + EMBEDDED_PARAMS;
-const GET_SHOW_BY_ID_ROOT_URL = "http://api.tvmaze.com/shows/";
+const GET_SHOW_BY_ID_ROOT_URL = "https://api.tvmaze.com/shows/";
 // embedded params for single show search:
 const EMBEDDED_PARAMS = "?embed[]=seasons&embed[]=episodes&embed[]=cast&embed[]=crew&embed[]=cast&embed[]=akas"
 
