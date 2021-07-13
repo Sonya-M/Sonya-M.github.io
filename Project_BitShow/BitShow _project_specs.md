@@ -42,10 +42,6 @@ SASS
 
 jQuery
 
-**Architecture:**
-
-**** Module Revealing Pattern with ES6 modules
-
 **API**
 
 Documentation: [http://api.tvmaze.com](http://api.tvmaze.com/)
