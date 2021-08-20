@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,118 +11,132 @@
     <link rel="stylesheet" href="./styles/proj.css">
     <title>CSS Project</title>
 </head>
+
 <body>
     <div class="container">
-       <header>
-           <div class="nav-logo-wrapper">
-               <h1><span class="boxed">Build</span>Estate</h1>
-               <nav>
+        <header>
+            <div class="nav-logo-wrapper">
+                <h1><span class="boxed">Build</span>Estate</h1>
+                <nav>
                     <ul>
                         <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">contact us</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#contact">contact us</a></li>
                     </ul>
-               </nav>
-           </div>
-           
-           <div class="banner">
-               <p>We shape our buildings thereafter they shape us</p>
-               <button><a href="#">Read More</a></button>
-           </div>
-       </header>
-       <main>
-           <section class="about">
-            <div class="heading-div">
-                <h2>Who We Are
-                    <div class="underline">
-                        <div class="line"></div>
-                        <div class="square"></div>
-                        <div class="line"></div>
-                    </div>
-                </h2>
-                
+                </nav>
             </div>
-            <div class="about-content">
-                <article class="welcome">
-                    <h3>Welcome To Our Build Estate</h3>
-                    <p>
-                        <q>If you can build buildings, why sit on the beach?, We always think of buildings in their settings, but so do other architects.
-                        </q>
-                    </p>
-                    <ul>
-                        <li>International Office Buildings.</li>
-                        <li> Apartment On Premier House.</li>
-                        <li>Prices Are Low & Parking Allowance.</li>
-                        <li>Best Design Architecture.</li>
-                    </ul>
-                </article>
-                <section class="who-img-section">
-                    <img src="./images/about.jpg" alt="">
-                </section>
-                <article class="dreams">
-                    <h3>We Make Your Dream Home</h3>
-                    <p><q>For decades engineers have stood accused that their buildings do not have any cultural value. We have attempted to liberate engineering of this accusation.</q></p>
-                    <ul>
-                        <li>Great Engineers Ideas.</li>
-                        <li>Planning For Future Model Buildings.</li>
-                        <li>Modern Apartment With Large Space.</li>
-                        <li>New Residential Complex Features.</li>
-                    </ul>
-                </article>
-            </div>       
-           </section>
-           <section class="people">
-               <div class="heading-div">
-                   <h2>What People Say
-                    <div class="underline">
-                        <div class="line"></div>
-                        <div class="square"></div>
-                        <div class="line"></div>
-                    </div>
-                   </h2>
-                   
-                
-               </div>
+
+            <div class="banner">
+                <p>We shape our buildings thereafter they shape us</p>
+                <button><a href="#services">Read More</a></button>
+            </div>
+        </header>
+        <main>
+            <section class="about">
+                <div class="heading-div">
+                    <h2>Who We Are
+                        <div class="underline">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="line"></div>
+                        </div>
+                    </h2>
+
+                </div>
+                <div class="about-content">
+                    <article class="welcome" id="about">
+                        <h3>Welcome To Our Build Estate</h3>
+                        <p>
+                            <q>If you can build buildings, why sit on the beach?, We always think of buildings in their
+                                settings, but so do other architects.
+                            </q>
+                        </p>
+                        <ul>
+                            <li>International Office Buildings.</li>
+                            <li> Apartment On Premier House.</li>
+                            <li>Prices Are Low & Parking Allowance.</li>
+                            <li>Best Design Architecture.</li>
+                        </ul>
+                    </article>
+                    <section class="who-img-section">
+                        <img src="./images/about.jpg" alt="">
+                    </section>
+                    <article class="dreams" id="services">
+                        <h3>We Make Your Dream Home</h3>
+                        <p><q>For decades engineers have stood accused that their buildings do not have any cultural
+                                value. We have attempted to liberate engineering of this accusation.</q></p>
+                        <ul>
+                            <li>Great Engineers Ideas.</li>
+                            <li>Planning For Future Model Buildings.</li>
+                            <li>Modern Apartment With Large Space.</li>
+                            <li>New Residential Complex Features.</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section class="people" id="testimonials">
+                <div class="heading-div">
+                    <h2>What People Say
+                        <div class="underline">
+                            <div class="line"></div>
+                            <div class="square"></div>
+                            <div class="line"></div>
+                        </div>
+                    </h2>
+
+
+                </div>
                 <div class="people-say">
                     <article>
                         <h4>
-                            <img src="./images/t1.jpg" alt=""> 
+                            <img src="./images/t1.jpg" alt="">
                             <p>
                                 WILLIAMSON
                                 <br>
-                                <span class="stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i></span>
+                                <span class="stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                        class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                        class="bi bi-star-half"></i></span>
                             </p>
                         </h4>
                         <!-- TODO: add stars -->
-                    
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quod excepturi quo dolores sequi quisquam molestiae aliquid earum officiis dolore.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quod excepturi quo dolores
+                            sequi quisquam molestiae aliquid earum officiis dolore.</p>
                     </article>
                     <article>
                         <h4>
                             <img src="./images/t2.jpg" alt="">
                             <p>
-                            JENNIFER LOPEZ
-                            <br>
-                            <span class="stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i></span>
+                                JENNIFER LOPEZ
+                                <br>
+                                <span class="stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                        class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                        class="bi bi-star-half"></i></span>
                             </p>
                         </h4>
                         <!-- TODO: add stars -->
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quod excepturi quo dolores sequi quisquam molestiae aliquid earum officiis dolore?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quod excepturi quo dolores
+                            sequi quisquam molestiae aliquid earum officiis dolore?</p>
                     </article>
                     <article>
                         <h4>
                             <img src="./images/t3.jpg" alt="">
                             <p>
-                            SELENA GOMEZ 
-                            <br>
-                            <span class="stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i></span></p>
+                                SELENA GOMEZ
+                                <br>
+                                <span class="stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                        class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                        class="bi bi-star-half"></i></span>
+                            </p>
                         </h4>
                         <!-- TODO: add stars -->
-                        <p>Adipisicing elit. Maiores quod excepturi quo dolores sequi quisquam molestiae aliquid earum officiis dolore? Libero cum labore voluptatum asperiores assumenda veritatis in dolorem a.</p>
+                        <p>Adipisicing elit. Maiores quod excepturi quo dolores sequi quisquam molestiae aliquid earum
+                            officiis dolore? Libero cum labore voluptatum asperiores assumenda veritatis in dolorem a.
+                        </p>
                     </article>
                 </div>
-           </section>
+            </section>
         </main>
         <aside>
             <div class="heading-div">
@@ -132,25 +147,25 @@
                         <div class="line"></div>
                     </div>
                 </h2>
-                
+
             </div>
-           <section class="contact">
+            <section class="contact">
                 <section class="tel-mail">
                     <h3>CONTACT US</h3>
                     <div>
                         <p><i class="bi-phone"></i> +021 000 123 3120</p>
                         <p id="email">&#9993; <a href="mailto:mail@example.com">mail@example.com</a></i>
-                        
+
                     </div>
                 </section>
                 <section class="connect">
                     <h3>CONNECT WITH US</h3>
-                        <div class="wrapper">
+                    <div class="wrapper">
                         <a href="#"><i class="bi bi-facebook" role="img" aria-label="facebook"></i></a>
                         <a href="#"><i class="bi bi-twitter" aria-label="twitter"></i></a>
                         <a href="#"><i class="bi bi-instagram" aria-label="instagram"></i></a>
                         <a href="#"><i class="bi bi-linkedin"></i>
-                        <a href="#"><img src="./images/" alt=""></a>
+                            <a href="#"><img src="./images/" alt=""></a>
                     </div>
                 </section>
                 <section class="address">
@@ -160,10 +175,12 @@
                 <section class="contact-img-section">
                     <img src="./images/house.png" alt="">
                 </section>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48394.34094869346!2d-74.01971122097164!3d40.70378663427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2srs!4v1620460930234!5m2!1sen!2srs" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                
-           </section>
-           
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48394.34094869346!2d-74.01971122097164!3d40.70378663427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2srs!4v1620460930234!5m2!1sen!2srs"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </section>
+
             <section class="mail-form-section">
                 <div class="heading-div">
                     <h2>Mail us
@@ -173,34 +190,36 @@
                             <div class="line"></div>
                         </div>
                     </h2>
-                    
+
                 </div>
-                <form class="mail-form">
-                
+                <form class="mail-form" id="contact">
+
                     <ul>
                         <li> <input type="text" id="name" name="name" placeholder="Name"></li>
                         <li><input type="email" id="email" name="email" placeholder="Email"></li>
                         <li><input type="tel" id="tel" name="tel" placeholder="Telephone"></li>
-                        <li class="textinput"><textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea></li>
+                        <li class="textinput"><textarea name="message" id="message" placeholder="Message" cols="30"
+                                rows="10"></textarea></li>
                         <li><input type="submit" value="Submit"></li>
                     </ul>
-                </form>                
-             </section>
-            </aside>
+                </form>
+            </section>
+        </aside>
         <footer>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#">Stats</a></li>
                     <li><a href="#">Agents</a></li>
-                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                 </ul>
             </nav>
             <p>© 2017 Build Estate. All Rights Reserved</p>
         </footer>
     </div>
-    
+
 </body>
+
 </html>
