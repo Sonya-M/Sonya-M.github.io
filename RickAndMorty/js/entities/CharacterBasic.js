@@ -19,7 +19,7 @@ class CharacterBasic {
         return this.#imgURL;
     }
     like() {
-        this.#liked = true;
+        this.#liked = !this.#liked;
     }
     isLiked() {
         return this.#liked;

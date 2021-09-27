@@ -10,7 +10,8 @@
   color: whitesmoke;
 }
 
-#root h1, #root h2 {
+#root h1,
+#root h2 {
   text-shadow: 3px 3px black;
 }
 
@@ -36,7 +37,11 @@
   cursor: pointer;
 }
 
-#root h1:hover, #root .card:hover, #root .profile-img:hover, #root .table:hover, #root .profile-img:hover {
+#root h1:hover,
+#root .card:hover,
+#root .profile-img:hover,
+#root .table:hover,
+#root .profile-img:hover {
   /* offset-x | offset-y | blur-radius | spread-radius | color */
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.589);
   transform: scale(1.01);
@@ -73,7 +78,7 @@
   filter: brightness(97%);
 }
 
-#root .btn-like.clicked {
+#root .btn-like.liked {
   background-color: rebeccapurple;
   color: white;
   border: 1px solid whitesmoke;
@@ -98,7 +103,8 @@
   opacity: 0.9;
 }
 
-#root .table, #root .profile-img {
+#root .table,
+#root .profile-img {
   width: 70rem;
   max-width: 100%;
   margin: 1rem;
@@ -121,7 +127,8 @@
   opacity: 0.9;
 }
 
-#root .error-message, #root .message {
+#root .error-message,
+#root .message {
   font-size: 150%;
 }
 

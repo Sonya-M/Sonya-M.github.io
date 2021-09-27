@@ -57,13 +57,9 @@ function createLikeBtn(characterID) {
         "<i class='bi bi-hand-thumbs-up'></i>" + " Like");
     $likeBtn.setAttribute("data-id", characterID);
     $likeBtn.addEventListener("click", function (e) {
-        // handle appearance locally, then call handler from control
-        if (!$likeBtn.classList.contains("clicked")) {
-            $likeBtn.classList.add("clicked");
-            likeHandler(parseInt($likeBtn.getAttribute("data-id")));
-            // likeHandler(characterID);
+        $likeBtn.classList.toggle("liked");
+        likeHandler(parseInt($likeBtn.getAttribute("data-id")));
 
-        }
     });
     return $likeBtn;
 }
