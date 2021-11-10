@@ -66,6 +66,12 @@ function setEventHandlers() {
     $searchSuggestions.on("mouseout", function () {
         mouseOverSearchSuggestions = false;
     });
+    $searchSuggestions.on("click", function () {
+        $searchSuggestions.removeClass("visible");
+    });
+    $searchSuggestions.on("auxclick", function () {
+        $searchSuggestions.removeClass("visible");
+    });
     $searchBox.on("blur", function () {
         if (!mouseOverSearchSuggestions) $searchSuggestions.removeClass("visible")
     });
